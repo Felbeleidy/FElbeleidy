@@ -18,7 +18,8 @@ Tests:
 
 Assumptions:
 - The URL used to access the application is http://127.0.0.1:8080/#/. If you have it differently in your local then you need to change it in my scripts.
-- Pagination won't work unless there are more than 20 records created in the page. 
+- Pagination will work when there are more than 20 records created in the page. 
+- Project is done by Selenium, Java and on Chrome browser only.
 
 Findings:
 - The Delete button in the confirmation message is not working for Branches even if I tried to do it manually by myself. However, I automated it as well.
